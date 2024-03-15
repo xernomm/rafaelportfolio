@@ -1,0 +1,16 @@
+.newRow
+{
+    margin-top: 8% !important;
+}
+
+.overflowX
+{
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.footer
+{
+    width: 100% !important;
+}
+

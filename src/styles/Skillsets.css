@@ -1,0 +1,45 @@
+.skillsets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .skill {
+    width: calc(20% - 10px); 
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .skillImage {
+    width: 100%; 
+    height: auto;
+  }
+  
+  .skillName {
+    margin-top: 10px;
+  }
+  
+  .skillBg
+  {
+    background-color: #ffffff31;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    transition: all ease 0.5s;
+    border-radius: 10px 80px / 120px; 
+
+  }
+  .skillBg:hover
+  {
+    border-radius: 50% 20% / 10% 40% ;
+    background-color: #ffffff;
+    transition: all ease 0.5s;
+  }
+  @media (max-width: 767px) {
+    .skill {
+      width: calc(50% - 10px); /* 50% width for 2 boxes in a row with 10px gap */
+    }
+  }
+  

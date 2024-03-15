@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+.marginBody
+{
+  padding: 110px;
+  background-color: #1B2328;
+}
+
+hr
+{
+  border: 1px solid white !important;
+}
+
+a
+{
+  text-decoration: none !important;
+}
+
+li
+{
+  list-style: none !important;
+}
+
+@media (max-width: 767px) {
+    .smNone
+  {
+    display: none;
+  }
+  
+}
+
