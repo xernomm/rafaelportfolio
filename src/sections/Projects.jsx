@@ -96,7 +96,7 @@ export const Projects = () => {
                                     <p className="text-white">{project.desc}</p>
                                 </div>
                                 <div className="projectFooter">
-                                    <a type="button" className="get-started-btn" href={project.link}>View on GitHub <I.Github className="mb-1 ms-2" /></a>
+                                    <a type="button" className="get-started-btn" target="_blank" rel="noreferrer" href={project.link}>View on GitHub <I.Github className="mb-1 ms-2" /></a>
                                 </div>
                             </div>
                             ))}

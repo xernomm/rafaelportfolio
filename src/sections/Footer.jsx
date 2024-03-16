@@ -1,4 +1,4 @@
-import { CardFooter, Container, Row } from "react-bootstrap"
+import { CardFooter, Container, Row, Link } from "react-bootstrap"
 import xernom from '../img/xernomm.png'
 import * as I from 'react-bootstrap-icons'
 export const Footer = () => {
@@ -63,10 +63,10 @@ export const Footer = () => {
                         <div className="col-lg-5 col-sm-12 px-4 justify-content-center d-flex align-items-center">
                         <div className="">
                             <div className="d-flex align-items-center mb-3">
-                                <a className="mx-1 primary" href=""><I.Linkedin className="lead" /></a>
-                                <a className="mx-1 primary" href=""><I.Instagram className="lead" /></a>
-                                <a className="mx-1 primary" href=""><I.Tiktok className="lead" /></a>
-                                <a className="mx-1 primary" href=""><I.Github className="lead" /></a>
+                                <a className="mx-1 primary" href="https://www.linkedin.com/in/rafael-richie-502360250/" target="_blank"  rel="noreferrer"><I.Linkedin className="lead" /></a>
+                                <a className="mx-1 primary" href="https://www.instagram.com/rfl_rchiee/" target="_blank"  rel="noreferrer"><I.Instagram className="lead" /></a>
+                                <a className="mx-1 primary" href="https://www.tiktok.com/@raf_rchiee?is_from_webapp=1&sender_device=pc" target="_blank"  rel="noreferrer"><I.Tiktok className="lead" /></a>
+                                <a className="mx-1 primary" href="https://github.com/xernomm" target="_blank"  rel="noreferrer"><I.Github className="lead" /></a>
                             </div>
                             <p className="text-white">
                                  &copy; Copyright <strong><span>Xernomm</span></strong>. All Rights Reserved
