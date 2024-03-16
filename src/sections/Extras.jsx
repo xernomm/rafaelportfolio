@@ -20,7 +20,7 @@ export const Extras = () => {
                         <div className="col-lg-6 col-sm-12 smNone">
                             <img src={ml} alt="" className="col-10 aboutMeImg" />
                         </div>
-                        <div className="col-lg-6 col-sm-12 px-5">
+                        <div className="col-lg-6 col-sm-12 ">
                             <h1 className="display-5 primary">
                                 Games
                             </h1>
@@ -31,7 +31,7 @@ export const Extras = () => {
                     </div>
                     <br />
                     <div className="d-lg-flex justify-content-center align-items-center mt-5">
-                        <div className="col-lg-6 col-sm-12 px-5">
+                        <div className="col-lg-6 col-sm-12 ">
                             <h1 className="display-5 primary">
                                 Music
                             </h1>
@@ -48,7 +48,7 @@ export const Extras = () => {
                         <div className="col-lg-6 col-sm-12 smNone">
                             <img src={ps} alt="" className="col-10 aboutMeImg" />
                         </div>
-                        <div className="col-lg-6 col-sm-12 px-5">
+                        <div className="col-lg-6 col-sm-12 ">
                             <h1 className="display-5 primary">
                                 Photo Editing
                             </h1>
