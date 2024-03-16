@@ -93,18 +93,16 @@
   @media (max-width: 767px) {
 
     .projectSets {
-      padding: 5%;
+      padding-right: 10%;
       height: 800px;
-      width: 100%;
+      width: 110%;
       overflow-x: auto;
     }
     
    
     .project, .projectInDev {
       height: 75%;
-      width: 100% !important;
-      margin-right: 5%;
-      margin-left: 5%;
+      width: 80% !important;
     }
 
     :root {

@@ -94,6 +94,15 @@ export const Projects = () => {
                                 <div className="projectBody">
                                     
                                     <p className="text-white">{project.desc}</p>
+                                    <p className=" text-white">
+                                       Developed with: <br />
+                                        <span className="fw-bold lead">
+                                       {project.tools}
+                                        </span> 
+                                    </p>
+                                </div>
+                                <div className="py-4">
+
                                 </div>
                                 <div className="projectFooter">
                                     <a type="button" className="get-started-btn" target="_blank" rel="noreferrer" href={project.link}>View on GitHub <I.Github className="mb-1 ms-2" /></a>
@@ -114,6 +123,12 @@ export const Projects = () => {
                                 <hr />
                                 <div className="projectBody">
                                     <p className="text-white">{project.desc}</p>
+                                    <p className=" text-white">
+                                       Developed with: <br />
+                                        <span className="fw-bold lead">
+                                       {project.tools}
+                                        </span> 
+                                    </p>
                                 </div>
                                 <div className="projectFooter">
                                     <p className="lead text-white">In Development</p>
