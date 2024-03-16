@@ -27,7 +27,7 @@ export const AboutMe = () => {
         <Container>
             <Row>
 
-                <div className="col-lg-12 d-lg-flex justify-content-center align-items-center">
+                <div className="p-5 col-lg-12 d-lg-flex justify-content-center align-items-center">
                     <div className="col-lg-8 col-sm-12 p-lg-5">
                         <h1 className="primary fw-bold display-3 my-4">
                             About Me
