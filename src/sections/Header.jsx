@@ -3,6 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import xernom from '../img/xernomm.png'
+import * as I from 'react-bootstrap-icons'
 import '../styles/Images.css'
 
 export const Header = () => {
@@ -32,7 +33,11 @@ export const Header = () => {
                                 <Nav.Link onClick={() => scrollToSection('experiences')}>Experiences</Nav.Link>
                                 <Nav.Link onClick={() => scrollToSection('projects')}>Projects</Nav.Link>
                                 <Nav.Link onClick={() => scrollToSection('extras')}>Extras</Nav.Link>
+                                <Nav.Link onClick={() => scrollToSection('connect')}>Connect Me</Nav.Link>
                             </Nav>
+                        </Navbar.Collapse>
+                        <Navbar.Collapse className="justify-content-end">
+                                                        
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>

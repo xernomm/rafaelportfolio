@@ -2,6 +2,7 @@ import { CardFooter, Container, Row } from "react-bootstrap"
 import xernom from '../img/xernomm.png'
 import * as I from 'react-bootstrap-icons'
 export const Footer = () => {
+
     return (
         <>
         <div className="bg-dark col-12 footer p-5">
@@ -19,18 +20,21 @@ export const Footer = () => {
                             <div className="d-flex">
                             <ul className="col-6">
                                 <li>
-                                <p className="lead primary fw-bold">
+                                <p className="lead primary fw-bold sitemap ">
                                     Sitemap
                                  </p>
                                 </li>
                                 <li>
-                                    <a href="" className=" text-white">Home</a>
+                                    <a href="#home" className=" text-white sitemap">Home</a>
                                 </li>
                                 <li>
-                                    <a href="" className=" text-white">Introduction</a>
+                                    <a href="#intro" className=" text-white sitemap">Introduction</a>
                                 </li>
                                 <li>
-                                    <a href="" className=" text-white">About</a>
+                                    <a href="#about" className=" text-white sitemap">About</a>
+                                </li>
+                                <li>
+                                    <a href="#experiences" className=" text-white sitemap">Experiences</a>
                                 </li>
                                 
                             </ul>
@@ -41,13 +45,16 @@ export const Footer = () => {
                                     </p>
                                 </li>
                                 <li>
-                                    <a href="" className=" text-white">Skills</a>
+                                    <a href="#skills" className=" text-white sitemap">Skills</a>
                                 </li>
                                 <li>
-                                    <a href="" className=" text-white">Projects</a>
+                                    <a href="#projects" className=" text-white sitemap">Projects</a>
                                 </li>
                                 <li>
-                                    <a href="" className=" text-white">Extras</a>
+                                    <a href="#extras" className=" text-white sitemap">Extras</a>
+                                </li>
+                                <li>
+                                    <a href="#connect" className=" text-white sitemap">Connect Me</a>
                                 </li>
                             </ul>
                             </div>

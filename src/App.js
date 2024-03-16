@@ -16,6 +16,7 @@ import { Experiences } from './sections/Experiences';
 import { Projects } from './sections/Projects';
 import { Extras } from './sections/Extras';
 import { Footer } from './sections/Footer';
+import { ContactUs } from './sections/ContactMe';
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
     <div className='marginBody'>
     <Header />
     <Container >
-      <Row>
+      <Row id='home'>
         <Welcome scrollToAboutMe={scrollToAboutMe}/>
       </Row>
       <Row className='newRow' id="intro">
@@ -52,6 +53,9 @@ function App() {
           </Row>
           <Row className='newRow' id="extras">
             <Extras />
+          </Row>
+          <Row className='newRow' id='connect'>
+            <ContactUs />
           </Row>
     </Container>
     </div>

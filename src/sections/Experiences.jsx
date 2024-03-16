@@ -18,6 +18,7 @@ export const Experiences = () => {
                         <div className=" text-white col-lg-6 col-sm-12">
                         <p className="lead fw-bold">1. RPG VENTURES <span className="lead fw-bold"> (2023)</span></p>
                         <ul>
+                            
                             <li>
                             <p className=""><span className="fw-bold">Position: </span> Junior Developer/Data Manager</p>
                             </li>
