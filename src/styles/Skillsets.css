@@ -5,13 +5,13 @@
   }
   
   .skill {
-    width: calc(20% - 10px); 
-    margin-bottom: 20px;
+    width: calc(20% - 20px); 
+    margin-bottom: 9%;
     text-align: center;
   }
   
   .skillImage {
-    width: 100%; 
+    width: 65%; 
     height: auto;
   }
   
@@ -22,11 +22,11 @@
   .skillBg
   {
     background-color: #ffffff31;
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15%;
+    padding: 5%;
     transition: all ease 0.5s;
     border-radius: 10px 80px / 120px; 
 
@@ -39,7 +39,9 @@
   }
   @media (max-width: 767px) {
     .skill {
-      width: calc(50% - 10px); /* 50% width for 2 boxes in a row with 10px gap */
+      width: calc(50% - 10px);
+      margin-bottom: 15%;
+    /* 50% width for 2 boxes in a row with 10px gap */
     }
   }
   
