@@ -39,8 +39,8 @@
   }
   @media (max-width: 767px) {
     .skill {
-      width: calc(50% - 10px);
-      margin-bottom: 15%;
+      width: calc(50% - 20px);
+      margin-bottom: 25%;
     /* 50% width for 2 boxes in a row with 10px gap */
     }
   }
